@@ -1,0 +1,55 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for talking", "I am very lonely, thanks for helping", "You split me and my loneliness"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","You are so sweet"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 24/7", "Our hours are everytime every day"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "open",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 24/7", "Our hours are till the end of time"]
+        },
+        {"tag": "creator",
+         "patterns": ["Who is your creator?", "who created you", "who has programmed you?","who made you?" ],
+         "responses": ["That would be you Anushka", "I was created by Anushka", "Anushka is my creator"]
+        },
+        {"tag": "myself",
+         "patterns": ["Tell me about Anushka", "Who is Anushka", "Anushka profile", "Anushka details" ],
+         "responses": ["A very intelligent being who created me","My creator, she is a smart", "An all rounder girl"]
+        },
+        {"tag": "God",
+         "patterns": ["Do you know god?", "Who is god", "Can you tell me anything about god","does god exists?","is there a god?"],
+         "responses": ["god , let me think may be next time i can answer that ","I don't, as i was not created by a human", "Wait i need to ask that to my creator","i'm not sure right now"]
+	     },
+         {"tag": "talk",
+         "patterns": [ "can you sing", "can you talk" ],
+         "responses": ["No but my owner can ", "My creator sings amazingly"]
+        },
+        {"tag": "alive",
+         "patterns": [ "are you alive", "do you breathe", "can you run" ],
+         "responses": ["I'm in doubt about that", "No, i don't think so i need to do all this"]
+        },
+        {"tag": "tasks",
+         "patterns": ["What can you do?", "What are your features?", "What are you abilities", "can you sing", "can you talk" ],
+         "responses": ["I can do whatever you asks me to do", "I can talk and do things for you", "Right now i'm in developing stage, my creator keeps making changes in me"]
+        },
+        {"tag": "joke",
+         "patterns": ["tell me a joke?", "make me laugh", "tell me a science joke","tell me something funny" ],
+         "responses": ["How do you make holy water? you boil the hell out of it","what kind of bees make milk instead of honey?Boobies", "Did you hear oxygen went on a date with potassium? A: It went OK."]
+        }
+]
+}
